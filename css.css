@@ -1,0 +1,42 @@
+*
+{
+padding: 0px;
+margin: 0px;
+font-size: 40px;
+}
+.box-one
+{
+  background-color: red;
+  padding: 20px;
+  border: 20px solid purple;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+ 
+}
+.box-two
+{
+    background-color: aqua;
+    padding: 20px;
+  border: 20px solid purple;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  
+    
+}
+
+@media screen and (max-width: 768px){
+	.grid{
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px ) and (max-width: 1200px){
+	.grid{
+		width: 100%;
+	}
+}
